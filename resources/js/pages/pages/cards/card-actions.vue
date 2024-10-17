@@ -76,7 +76,7 @@ const refetchData = hideOverlay => {
     </VCol>
 
     <VCol
-      cols="12"
+      cols="12"`
       md="6"
     >
       <!-- 👉 Initial Load -->

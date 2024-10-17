@@ -1,7 +1,5 @@
 <script setup>
-import { VideoPlayer } from '@videojs-player/vue'
 import InstructorPoster from '@images/pages/instructor-poster.png'
-import 'video.js/dist/video-js.css'
 
 const courseDetails = ref()
 const { data, error } = await useApi('/apps/academy/course-details')

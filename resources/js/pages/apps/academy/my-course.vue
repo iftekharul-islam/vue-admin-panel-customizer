@@ -1,5 +1,4 @@
 <script setup>
-import { VideoPlayer } from '@videojs-player/vue'
 import AcademyMyCourses from '@/views/apps/academy/AcademyMyCourses.vue'
 import boyAppAcademy from '@images/illustrations/boy-app-academy.png'
 import girlAppAcademy from '@images/illustrations/girl-app-academy.png'
@@ -216,7 +215,6 @@ const searchQuery = ref('')
 </template>
 
 <style lang="scss">
-@import "video.js/dist/video-js.css";
 
 .illustration1 {
   position: absolute;

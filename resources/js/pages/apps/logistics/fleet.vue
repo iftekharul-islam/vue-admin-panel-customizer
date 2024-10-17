@@ -8,6 +8,7 @@ import {
 import { PerfectScrollbar } from 'vue3-perfect-scrollbar'
 import { useDisplay } from 'vuetify'
 import fleetImg from '@images/misc/fleet-car.png'
+import fleetPkg from '@images/misc/fleet-package.png'
 
 const { isLeftSidebarOpen } = useResponsiveLeftSidebar()
 const accessToken = 'pk.eyJ1Ijoic29jaWFsZXhwbG9yZXIiLCJhIjoiREFQbXBISSJ9.dwFTwfSaWsHvktHrRtpydQ'
